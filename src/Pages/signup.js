@@ -5,5 +5,6 @@ export default function signup() {
         <h1 className="signup">
             Sign-up
         </h1>
+        
     )
 }

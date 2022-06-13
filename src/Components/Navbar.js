@@ -11,29 +11,29 @@ export default function Navbar() {
     const [click, setclick] = useState(false);
     const [button, setbutton] = useState(true);
     
-    const menuHandler=()=>{setclick(!click);}
+    const menuHandler = () => {setclick(!click);}
 
-    const closeMobileMenu=()=>{setclick(false);}
+    const closeMobileMenu = () => {setclick(false);}
 
-    const showButton=()=>{
+    const showButton = () => {
         if(window.innerWidth<=600){
             setbutton(false);
         }
         else setbutton(true);
     }
 
-    useEffect(()=>{
+    useEffect(() => {
         showButton();
-    },[button]);
+    }, [button]);
 
-    document.addEventListener("resize", showButton);
+    document.addEventListener ("resize", showButton);
 
     return (
         <>  
             <nav className="nav">
             <div className='nav-container'>
                 <Link to='/' className="nav-logo">
-                    e-domize<i class="ri-remixicon-line" />
+                    HikeTM
                 </Link>
                
                 <div className="nav-menu-icon" onClick={menuHandler}>

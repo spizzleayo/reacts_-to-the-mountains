@@ -13,7 +13,7 @@ export default function Footer() {
     return (
     <div className="footer">
     <div className="footer-subs">
-        <h1>Join the Adventure newsletter to receive our best deals</h1>
+        <h1>Subscribe to get update on the adventure deals</h1>
         <h1><small>You can unsubscribe at any time.</small></h1>
         <div className="subs-flex">
             <input placeholder="Your E-mail" className="subs-input"></input>
@@ -37,7 +37,7 @@ export default function Footer() {
     </div>
     <div className="footer-final">
         <Link to='/' className="footer-logo">
-            e-domize<i class="ri-remixicon-line" />
+            HikeTM
         </Link>
         <div className="footer-copyright"><small>All rights reserved © 2021</small></div>    
         <div className="footer-social">
