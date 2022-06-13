@@ -10,7 +10,7 @@ export default function Carditems(props) {
         <figure className="card-item-fig">
             <img 
             src={props.src}
-            alt="Himalayas Image" 
+            alt="Himalayas"
             className="card-item-fig-img" />
         </figure>
         <div className="card-item-txt">

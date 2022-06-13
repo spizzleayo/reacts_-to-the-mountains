@@ -26,7 +26,7 @@ export default function Navbar() {
         showButton();
     },[button]);
 
-    {document.addEventListener("resize",showButton);}
+    document.addEventListener("resize", showButton);
 
     return (
         <>  

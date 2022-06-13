@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import Button from './Button';
 import './Footer.css'
 
-let about=['Founders','Testimonials','Careers','Investors','Terms of Service'];
-let contact=['Contact','Support','Destinations','Sponsorships'];
-let videos=['Submit Video','Ambassadors','Agency','Influencer']
-let region=['India','USA','Australia','Japan']
-let contents={'About Us':about,'Contact Us':contact,'Change Region':region,'Videos':videos};
+const about=['Founders','Testimonials','Careers','Investors','Terms of Service'];
+const contact=['Contact','Support','Destinations','Sponsorships'];
+const videos=['Submit Video','Ambassadors','Agency','Influencer']
+const region=['India','USA','Australia','Japan']
+const contents={'About Us':about,'Contact Us':contact,'Change Region':region,'Videos':videos};
 
 export default function Footer() {
     return (
@@ -41,10 +41,10 @@ export default function Footer() {
         </Link>
         <div className="footer-copyright"><small>All rights reserved © 2021</small></div>    
         <div className="footer-social">
-            <img src="https://img.icons8.com/color/48/000000/facebook-new.png"/>
-            <img src="https://img.icons8.com/color/48/000000/instagram-new--v1.png"/>
-            <img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/>
-            <img src="https://img.icons8.com/color/48/000000/linkedin.png"/>
+            <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="facebook"/>
+            <img src="https://img.icons8.com/color/48/000000/instagram-new--v1.png" alt="instagram"/>
+            <img src="https://img.icons8.com/color/48/000000/twitter--v1.png" alt="twitter"/>
+            <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="linkedIn"/>
         </div>
     </div>
     </div>

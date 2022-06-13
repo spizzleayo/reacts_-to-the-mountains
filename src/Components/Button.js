@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './Button.css'
 
 const style=['btn-primary','btn-secondary'];
-const size=['btn-small','btn-large'];
+const size=['btn-small', 'btn-large'];
 
 export default function Button({child,btnStyle,btnSize,onClick,type})
     
@@ -14,7 +14,7 @@ export default function Button({child,btnStyle,btnSize,onClick,type})
     return (
         <div>
             <Link to='/signup' className="btn-mobile">
-                <button id="signup" type={type} className={`btn ${setStyle} ${setSize}`} onClick={onClick} type={type}>
+                <button id="signup" type={type} className={`btn ${setStyle} ${setSize}`} onClick={onClick}>
                     {child}
                 </button>
             </Link>
